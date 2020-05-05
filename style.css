@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(34, 15, 121);
+  text-align: center;
+  color: white;
+}
+button,
+img {
+  background: none;
+  border: none;
+  outline: none;
+  /* position: fixed;
+  display: block; */
+  width: 150px;
+  height: auto;
+  padding: 15px;
+  /* top: 20px;
+  right: 20px;
+  margin: 0 auto; */
+}
+
+button:active,
+button:focus,
+button:visited {
+  outline: none;
+  border: none;
+}
+
+img:hover {
+  transform: scale(1.25);
+  transition: 0.3s ease-in;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Enables the HTML document to support all the languages that exist on Earth-->
+    <meta charset="utf-8" />
+
+    <!--Tells intertnet explorer to use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Sets the page width to the size of the device and sets the zoom width to 1 -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Rock, Paper, Scissors</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <br />
+    <h1>Rock, paper, or scissors?</h1>
+    <button onclick="rps('rock')"><img src="images/rock.png" /></button>
+    <button onclick="rps('paper')"><img src="images/paper.png" /></button>
+    <button onclick="rps('scissors')"><img src="images/scissors.png" /></button>
+    <br />
+    <h3>You chose: <span id="playerTarget"></span></h1>
+    <h3>Computer chose: <span id="computerTarget"></span></h1>
+    <br>
+    <h1>Winner is <span id="winnerTarget"></span>!</h1>
+    <script src="index.js"></script>
+  </body>
+</html>
